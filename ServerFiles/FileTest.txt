@@ -1,0 +1,18 @@
+cpu only fluid sim:
+	https://github.com/Rafa-Correia/Fluid-Sim
+turning water particles into a struct so that it can be a single StructuredBuffer, also changes to the Compute Shader's equations for performance gains.: 	https://github.com/EWehmeyer97/FluidSPH
+ray marching: 
+	https://github.com/AJTech2002/Smoothed-Particle-Hydrodynamics
+mentions radix sort, and 3d shader and voxeling of obstacles to make boundaries: 
+	https://github.com/Scrawk/PBD-Fluid-in-Unity
+more optimization details: 
+	https://news.ycombinator.com/item?id=38769794
+prefix sums on GPU: 
+	https://github.com/samonz/GPUPrefixSums?tab=readme-ov-file
+Uses counting sort to speed-up neighbor searching.
+Implementing surface extraction techniques proposed by Yu and Turk.
+Performs normal smoothing to make the surface more realistic while avoiding expensive isosurface extraction algorithms.
+Basic water shading
+	https://github.com/aren227/unity-fluid-simulation
+great interactive implementation in rust: 
+	https://github.com/msakuta/rushydro?tab=readme-ov-file
